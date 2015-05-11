@@ -1,0 +1,7 @@
+<resources>
+	<string name="app_title">The Conference</string>
+	<string name="tab1_title">Schedule</string>
+	<string name="tab2_title">Venue</string>
+	<string name="tab3_title">Conversation</string>
+	<string name="tab4_title">Videos</string>
+</resources>

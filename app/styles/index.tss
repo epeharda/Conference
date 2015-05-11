@@ -1,0 +1,21 @@
+".container": {
+	backgroundColor:"white"
+}
+
+//L is shorthand for Ti.Local.getString
+"#tab1":{
+	title:L('tab1_title')
+}
+
+"#tab2":{
+	title:L('tab2_title')
+}
+
+"#tab3":{
+	title:L('tab3_title')
+}
+
+"#tab4":{
+	title:L('tab4_title')
+}
+
