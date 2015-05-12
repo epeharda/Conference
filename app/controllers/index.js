@@ -1,5 +1,10 @@
-function doClick(e) {
-    alert($.label.text);
-}
+
+$.index.addEventListener('open', function (evt) {
+	if (OS_ANDROID) {
+		var activity = evt.source.getActivity();
+		var actionbar = activity.actionBar;
+		actionbar.title="The Conference";
+	}
+});
 
 $.index.open();

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>gov.coleg.test</id>
+    <id>com.peyfuss.regina</id>
     <name>Conference</name>
     <version>1.0</version>
     <publisher>reginapeyfuss</publisher>
@@ -38,7 +38,12 @@
             </dict>
         </plist>
     </ios>
-    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+    	<manifest>
+			<application android:theme="@style/Theme.Brownab"/>
+        	<uses-sdk android:targetSdkVersion="16"/>
+        </manifest>
+	</android>
     <mobileweb>
         <precache/>
         <splash>

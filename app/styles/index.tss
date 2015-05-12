@@ -2,20 +2,50 @@
 	backgroundColor:"white"
 }
 
+"TabGroup[platform=ios]":{
+	tabsTintColor:"#551D00",
+	tintColor:"#ffffff"
+}
+
+
 //L is shorthand for Ti.Local.getString
-"#tab1":{
-	title:L('tab1_title')
+"#tab1[platform=ios]":{
+	title:L('tab1_title'),
+	icon: "images/schedule"
+	
 }
 
-"#tab2":{
-	title:L('tab2_title')
+"#tab2[platform=ios]":{
+	title:L('tab2_title'),
+	icon: "images/venue"
+	
 }
 
-"#tab3":{
-	title:L('tab3_title')
+"#tab3[platform=ios]":{
+	title:L('tab3_title'),
+	icon: "images/conversation"
+	
 }
 
-"#tab4":{
-	title:L('tab4_title')
+"#tab4[platform=ios]":{
+	title:L('tab4_title'),
+	icon: "images/videos"
 }
+
+"#tab1[platform=android]":{
+	icon: "/images/schedule.png"
+}
+
+"#tab2[platform=android]":{
+	icon: "/images/venue.png"
+}
+
+"#tab3[platform=android]":{
+	icon: "/images/conversation.png"
+}
+
+"#tab4[platform=android]":{
+	icon: "/images/videos.png"
+}
+
 
