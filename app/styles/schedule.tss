@@ -4,7 +4,7 @@
 	title: L("tab1_title"),
 	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT],
 	layout:"vertical",
-	statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT 
+	statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
 }
 
 ".container[platform=android]":{
