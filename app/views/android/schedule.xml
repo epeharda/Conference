@@ -1,4 +1,4 @@
 <Alloy>
-	<Window class="container">
+	<Window id="schedule" class ="container" layout="vertical">
 	</Window>
 </Alloy>
