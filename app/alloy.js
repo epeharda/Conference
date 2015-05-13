@@ -9,3 +9,9 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
+Alloy.Globas.viewPager = { 
+	indicatorColor:"#551D00",
+	backgroundColor:"#A1CC9F",
+	color:"#000000",
+	upperCase : true
+};
