@@ -5,9 +5,9 @@
 			<Label id="location" class="locationcaption"></Label>
 		</View>
 		<View class="descriptioncol">
+			<Label id="talkdescription" class="talkdescription"></Label>
 			<Label id="talkname" class="talkname"></Label>
 			<Label id="speaker" class="speaker"></Label>
-			<Label id="talkdescription" class="talkdescription"></Label>
 		</View>
 		</TableViewRow>
 </Alloy>

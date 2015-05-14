@@ -1,4 +1,5 @@
 <Alloy>
-	<View class="container">
-	</View>
+	<TableView id="day2table" class="table">
+	
+	</TableView>
 </Alloy>
