@@ -1,0 +1,58 @@
+[
+  {
+    "time":"6:30 - 7:30 a.m.",
+    "room":"",
+    "speaker":"",
+    "description":"Early bird walk",
+    "speakerbio":""
+  },
+  {
+    "time":"7:00 - 5:30 p.m.",
+    "room":"",
+    "speaker":"",
+    "description":"Meeting registration & information desks open",
+    "speakerbio":""
+  },
+  {
+    "time":"7:30 - 8:45 a.m.",
+    "room":"",
+    "speaker":"",
+    "description":"Buffet Breakfast",
+    "speakerbio":""
+  },
+  {
+    "time":"8:30 - 9:25 a.m.",
+    "room":"",
+    "speaker":"",
+    "description":"Opening Ceremony",
+    "speakerbio":""
+  },
+  {
+    "time":"9:00 - 12:00 p.m.",
+    "room":"",
+    "speaker":"",
+    "description":"",
+    "speakerbio":""
+  },
+  {
+    "time":"12:00 - 1:40 p.m. ",
+    "room":"",
+    "speaker":"",
+    "description":"Lunch & keynote speaker, TBD",
+    "speakerbio":""
+  },
+  {
+    "time":"1:45 - 5:30 p.m",
+    "room":"",
+    "speaker":"",
+    "description":"Busses depart for Policy Tours at 1:45 p.m. - Busses will return between 5-5:30 p.m.",
+    "speakerbio":""
+  },
+  {
+    "time":"",
+    "room":"",
+    "speaker":"",
+    "description":"Free Evening",
+    "speakerbio":""
+  }
+]

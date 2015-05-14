@@ -4,12 +4,17 @@
 	title: L("tab1_title"),
 	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT],
 	layout:"vertical",
-	statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
+	statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
+	titleAttributes:{
+		color: "white"
+	},
+
+	
 }
 
 ".container[platform=android]":{
 	backgroundColor: "#fff",
-	barColor: "#551D00",,
+	barColor: "#551D00",
 	title: L("tab1_title"),
 	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT],
 	layout:"vertical"
@@ -21,7 +26,7 @@
 }
 
 "#dayoptions[platform=ios]":{
-	backgroundColor:"#551D00",,
+	backgroundColor:"#551D00",
 	top:5, 
 	bottom:5, 
 	height:25, 

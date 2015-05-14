@@ -1,26 +1,145 @@
-/*
-
-This is your global styles file. Selectors and rules you define
-here will be applied throughout your app. However, these rules
-have the lowest priority of any style settings.
-
-For more information, see the "Style Priorities" section of
-http://docs.appcelerator.com/titanium/latest/#!/guide/Alloy_Styles_and_Themes
-
-For example, the following would apply to all labels, windows,
-and text fields (depending on platform) in your app unless you
-overrode the settings with other TSS, XML, or JS settings:
-
-'Label[platform=android]': {
-	color: '#000' // all platforms except Android default to black
+".table[platform=ios]":{
+	 separatorStyle:Titanium.UI.iPhone.TableViewSeparatorStyle.NONE
 }
 
-'Window': {
-	backgroundColor: '#fff' // white background instead of default transparent
+".row[platform=ios]":{
+	height:"80",
+	  selectionStyle: Titanium.UI.iPhone.TableViewCellSelectionStyle.NONE
 }
 
-'TextField[platform=android]': {
-	height: Ti.UI.SIZE //
+".row[platform=android]":{
+	 height:"100"
 }
 
-*/
+".timecol":{
+	width:"40%",
+	left:"0",
+	top:"5",
+	bottom:"5",
+	layout: "vertical"
+}
+
+".descriptioncol":{
+	 width:"60%",
+	 right:"5",
+	 backgroundColor:"#efefef",
+	 top:"5",
+	 bottom:"5",
+	 layout:"vertical"
+}
+
+".timecaption[platform=android]":{
+	left:"5", 
+	top:"0", 
+	color:"#000",
+	font:{
+		fontSize: 14,
+		fontWeight: "bold"
+	}
+}
+
+".timecaption[platform=ios]":{
+	left:"5", 
+	top:"0", 
+	color:"#000",
+	font:{
+		fontSize: 12,
+		fontWeight: "bold"
+	}
+}
+
+".locationcaption[platform=android]":{
+	left:"5", 
+	top:"8", 
+	color:"#000",
+	font:{
+		fontSize: 14,
+		fontStyle: "italic"
+	}
+}
+
+".locationcaption[platform=ios]":{
+	left:"5", 
+	top:"7", 
+	color:"#000",
+	font:{
+		fontSize: 12,
+		fontStyle: "italic"
+	}
+}
+
+".talkname[platform=android]":{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	color:"#000",
+	left:"8",
+	right:"8",
+	font:{
+		fontSize: 14,
+		fontWeight: "bold"
+	}
+}
+
+".talkname[platform=ios]":{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	color:"#000",
+	left:"8",
+	right:"8",
+	font:{
+		fontSize: 12,
+		fontWeight: "bold"
+	}
+}
+
+".speaker[plaform=android]":{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	color:"#000",
+	left:"8",
+	right:"8",
+	font:{
+		fontSize: 13,
+		fontStyle: "italic"
+	}
+}
+
+".speaker[platform=ios]":{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	color:"#000",
+	left:"8",
+	right:"8",
+	font:{
+		fontSize: 12,
+		fontStyle: "italic"
+	}
+}
+
+".talkdescription[platform=android]":{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	color:"#000",
+	left:"8",
+	right:"8",
+	top: "8",
+	bottom: "8",
+	font:{
+		fontSize: 13
+	},
+	layout: "vertical"
+}
+
+".talkdescription[platform=ios]":{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	color:"#000",
+	left:"8",
+	right:"8",
+	top: "8",
+	bottom: "8",
+	font:{
+		fontSize: 12
+	},
+	layout: "vertical"
+}

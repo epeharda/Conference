@@ -1,10 +1,8 @@
-".container": {
-	backgroundColor:"white"
-}
+
 
 "TabGroup[platform=ios]":{
 	tabsTintColor:"#551D00",
-	tintColor:"#ffffff"
+	tintColor:"#ffffff",
 }
 
 
