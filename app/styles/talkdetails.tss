@@ -1,5 +1,5 @@
 ".container[platform=ios]" : {
-   barColor: "#6A9E68",
+   barColor: "#551D00",
    layout:"vertical",
    statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
 }
@@ -26,7 +26,7 @@
 ".titlebox":{
   height:"70",
   width:Ti.UI.FILL,
-  backgroundColor:"#6A9E68"
+  backgroundColor:"#551D00"
 }
 
 "#talktitle[platform=ios]":{
