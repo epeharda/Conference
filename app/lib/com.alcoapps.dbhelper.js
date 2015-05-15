@@ -98,16 +98,16 @@ dbhelper.prototype.get = function (obj, callback) {
     var sql = "SELECT " + fields + " FROM " + obj.table;
 
     if (obj.where) {
-        sql += ' WHERE ' + obj.where
+        sql += ' WHERE ' + obj.where;
     }
     if (obj.group) {
-        sql += ' GROUP BY ' + obj.group
+        sql += ' GROUP BY ' + obj.group;
     }
     if (obj.order) {
-        sql += ' ORDER BY ' + obj.order
+        sql += ' ORDER BY ' + obj.order;
     }
     if (obj.limit) {
-        sql += ' LIMIT ' + obj.limit
+        sql += ' LIMIT ' + obj.limit;
     }
     if (obj.whereIn) {
         var value = '';
@@ -175,7 +175,7 @@ dbhelper.prototype.getImage = function (obj, callback) {
 
     var sql = "SELECT " + obj.field + " FROM " + obj.table;
     var rs = this.getData(sql);
-    var img = rs.fieldByName(obj.field)
+    var img = rs.fieldByName(obj.field);
     this.db.close();
     if (callback) {
         callback(img);
@@ -202,7 +202,7 @@ dbhelper.prototype.set = function (obj) {
                 vals.push(obj.data[item]);
                 break;
         }
-    })
+    });
 
     var sql = "INSERT INTO " + obj.table + " (" + keys.toString() + ") VALUES (" + vals.toString() + ")";
 
@@ -261,8 +261,8 @@ dbhelper.prototype.insertOrReplace = function (obj) {
             case "number":
                 values.push(obj.data[item]);
                 break;
-        }
-    })
+        };
+    });
 
     var sql = "INSERT OR REPLACE INTO " + obj.table + " (" + keys.toString() + ") VALUES (" + values.toString() + ")";
 
@@ -386,7 +386,7 @@ dbhelper.prototype.createFromJSON = function (json, tableName) {
     columns.forEach(function (e) {
         fields.push(e + ' TEXT');
         fieldsPure.push(e); // I'm also creating a string w/o the data-type to be used by the insert
-    })
+    });
     this.getData('create table ' + tableName + '(' + fields.toString() + ')');
 
     var sql = '';
@@ -395,10 +395,10 @@ dbhelper.prototype.createFromJSON = function (json, tableName) {
         values = [];
         columns.forEach(function (cols) {
             values.push('"' + row[cols] + '"');
-        })
+        });
         sql = "INSERT INTO " + tableName + " (" + fieldsPure + ") VALUES (" + values.toString() + ")";
         _that.db.execute(sql);
-    })
+    });
 };
 
 /**
@@ -407,7 +407,7 @@ dbhelper.prototype.createFromJSON = function (json, tableName) {
  */
 dbhelper.prototype.drop = function (tablename) {
     this.getData('DROP TABLE ' + tablename);
-    this.db.close()
+    this.db.close();
 };
 
 /**

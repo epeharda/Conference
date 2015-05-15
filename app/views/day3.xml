@@ -1,4 +1,4 @@
 <Alloy>
-	<TableView id="day3table" class="table">
+	<TableView id="day3table" class="table" onClick="tableclick" onScroll="tablescroll">
 	</TableView>
 </Alloy>

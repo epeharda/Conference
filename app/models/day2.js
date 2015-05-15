@@ -1,7 +1,7 @@
 exports.definition = {
 	config: {
 		columns: {
-		     "time": "text",
+		    "time": "text",
 		    "room": "text",
 		    "title": "text",
 		    "speaker": "text",
