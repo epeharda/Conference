@@ -6,7 +6,7 @@
 
 ".container[platform=android]" : {
    backgroundColor:"#fff",
-   layout:"vertical"
+   layout:"vertical" 
 }
 
 ".banner":{
