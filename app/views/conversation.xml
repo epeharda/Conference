@@ -1,7 +1,7 @@
 <Alloy>
 	<Window id="converstation" class="container">
 		<RightNavButton platform="ios">
-			<Button systemButton="Ti.UI.SystemButton.REFRESH" onClick="dorefresh"/>
+			<Button systemButton="Ti.UI.iPhone.SystemButton.REFRESH" onClick="dorefresh"/>
 		</RightNavButton>
 		<ListView id="tweetlist" onItemclick="doclick">
 			
@@ -11,7 +11,7 @@
 					<Label bindId="name" class="name"></Label>
 					<Label bindId="screen_name" class="screen_name"></Label>
 					<Label bindId="tweet" class="tweet"></Label>
-				<ItemTemplate>
+				</ItemTemplate>
 				<ItemTemplate name="loadingtemplate" class="loadingtemplate">
 					<Label bindId="loading" class="loading"></Label>
 				</ItemTemplate>

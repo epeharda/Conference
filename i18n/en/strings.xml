@@ -10,4 +10,5 @@
 	<string name="venue_title">The Vail Cascade Resort and Spa will be the site of the CSG West 68th Annual Meeting.</string>
 	<string name="venue_description">Picture-perfect for creating memorable experiences and located overlooking Gore Creek, Vail Cascade is a destination where families bond, where mind, body and spirit are balanced, and where a majestic mountain backdrop is the setting for meaningful connections among families, couples, groups and adventure-seekers alike.</string>
 	<string name="no_phone">Unable to initiate a phone call on this device.</string>
+	<string name="offline_error">Device is offline; cannot retrieve information</string>
 </resources>

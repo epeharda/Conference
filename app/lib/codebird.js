@@ -650,7 +650,7 @@ var Codebird = function () {
         } else {
             return '';
         }
-    }
+    };
 
     /**
      * Gets the base64-encoded SHA1 hash for the given data
