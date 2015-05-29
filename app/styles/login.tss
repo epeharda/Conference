@@ -1,0 +1,85 @@
+".loginContainer[platform=ios]":{
+	backgroundColor: "#fff",
+	barColor: "#551D00",
+	title: "Login",
+	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT],
+	layout:"vertical",
+	statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
+	titleAttributes:{
+		color: "white"
+	},
+
+}
+
+".loginContainer[platform=android]":{
+	backgroundColor: "#fff",
+	barColor: "#551D00",
+	title: "Login",
+	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT],
+	layout:"vertical"
+}
+
+"#loginView":{
+	visible:true,
+	top: 90,
+	height:Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout:"vertical",
+	borderColor:"transparent",
+	
+}
+
+"#lvContainer":{
+	top: 20,
+	bottom:6,
+	width:280,
+	height:Ti.UI.SIZE,
+	layout:"vertical",
+	
+	
+}
+"#lvButtonContainer":{
+	top: 20,
+	width:150,
+	height:Ti.UI.SIZE,
+	layout:"vertical",
+}
+
+"#welcomeText":{
+	text: "Welcome to iLegislate",
+	font:{
+		fontSize:24,
+		fontWeight:'bold'
+	},
+	color: "#551D00",
+	
+	
+}
+"#showLoginBtn":{
+	visible: true,
+	color: "#551D00"
+}
+"#showResetBtn":{
+	visible: true,
+	color: "#551D00"
+}
+"#password":{
+	passwordMask: true,
+}
+".tfWrapper":{
+	top: 6,
+	width: 260,
+	height:40,
+	borderColor:"gray",
+	border:1
+}
+
+"Button":{
+	top: 6,
+	width: 120,
+	height: 36,
+	font:{
+		fontSize:13,
+	}
+}
+

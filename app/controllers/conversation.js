@@ -28,4 +28,16 @@ function doclick(evt){
   });
 }
 
+function openApp(obj){
+  if (OS_ANDROID){
+        Ti.Platform.openURL(obj.webUrl);
+    }else{
+        if(Titanium.Platform.canOpenURL(obj.appUrl)){
+            Ti.Platform.openURL(obj.appUrl);
+        } else {
+            Ti.Platform.openURL(obj.webUrl);
+        }
+    }
+};
+
 loadTweets();

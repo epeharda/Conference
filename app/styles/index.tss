@@ -27,7 +27,7 @@
 
 "#tab4[platform=ios]":{
 	title:L('tab4_title'),
-	icon: "images/videos"
+	icon: "images/setting"
 }
 
 "#tab1[platform=android]":{
@@ -43,7 +43,7 @@
 }
 
 "#tab4[platform=android]":{
-	icon: "/images/videos.png"
+	icon: "/images/setting.png"
 }
 
 

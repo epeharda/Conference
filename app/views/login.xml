@@ -1,0 +1,18 @@
+<Alloy>
+	<Window id="login" class="loginContainer">
+		<ScrollView>
+			<View id='loginView'>
+				<Label id="welcomeText"></Label>
+			<View id="lvContainer">
+				<TextField id ="email" class="tfWrapper" onReturn="focusPassword"></TextField>
+				<TextField id ="password" class="tfWrapper" onReturn="loginUser"></TextField>
+			</View>
+			<View id="lvButtonContainer">
+				<Button id="showLoginBtn" title="Login" onClick="loginUser"/>
+				
+			</View>
+				<Button id="showResetBtn" title ="Reset Password"/>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

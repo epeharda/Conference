@@ -10,7 +10,7 @@
 			<Require src ="conversation" id="conversationTab"/>
 		</Tab>
 		<Tab id="tab4">
-			<Require src ="video" id="videosTab"/>
+			<Require src ="login" id="videosTab"/>
 		</Tab>
 	</TabGroup>
 </Alloy>
